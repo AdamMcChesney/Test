@@ -4,10 +4,10 @@
   "description": "hello-world",
   "main": "index.js",
   "directories": {
-    "test": "./node_modules/.bin/mocha --reporter spec -t 8000"
   },
   "scripts": {
-    "start": "node ./index.js"
+    "start": "node ./index.js",
+    "test": "./node_modules/.bin/mocha --reporter spec -t 8000"
   },
   "author": "",
   "license": "ISC",

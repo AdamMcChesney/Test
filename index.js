@@ -1,5 +1,3 @@
-console.log("Hello World!")
-
 exports.sayHelloInEnglish = function() {
   return "Hello World";
 };
