@@ -4,13 +4,15 @@
   "description": "hello-world",
   "main": "index.js",
   "directories": {
-    "test": "test"
+    "test": "./node_modules/.bin/mocha --reporter spec -t 8000"
   },
   "scripts": {
     "start": "node ./index.js"
   },
   "author": "",
   "license": "ISC",
-  "devDependencies": {
+   "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0"
   }
 }
